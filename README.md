@@ -16,7 +16,6 @@
 - **Vite** - 快速构建工具
 - **ECharts** - 数据可视化图表库
 - **Element Plus** - UI 组件库
-- **DataV Vue3** - 大屏专用组件库
 - **Mock.js** - 模拟数据
 - **Axios** - HTTP 请求库
 
