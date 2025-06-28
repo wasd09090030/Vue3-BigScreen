@@ -25,3 +25,31 @@
 npm install
 npm run dev
 ```
+
+## 部署
+
+### 自动部署 (GitHub Actions)
+
+#### GitHub Pages 部署 (`deploy.yml`)
+- 自动部署到 GitHub Pages
+
+
+## 项目结构
+
+```
+src/
+├── components/          # 图表组件
+│   ├── SystemUsageChart.vue      # 系统使用率折线图
+│   ├── TemperatureGauge.vue      # 温度仪表盘
+│   ├── MonthlySalesChart.vue     # 月度销售柱状图
+│   ├── NetworkChart.vue          # 网络传输图
+│   ├── ProvinceUsersChart.vue    # 省份用户排序图
+│   ├── DataBorder.vue            # 科技边框组件
+│   ├── DigitalFlop.vue           # 数字翻牌器
+│   └── AnimatedBackground.vue    # 动态背景
+├── mock/               # Mock 数据
+│   └── index.js
+├── App.vue            # 主应用组件
+├── main.js           # 应用入口
+└── style.css         # 全局样式
+```
