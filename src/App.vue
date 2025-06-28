@@ -121,8 +121,10 @@ export default {
 
 <style scoped>
 .dashboard {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   font-family: 'Microsoft YaHei', sans-serif;
   position: relative;

@@ -122,7 +122,8 @@ export default {
       } catch (error) {
         console.error('获取飞线图数据失败:', error)
       }
-    }    onMounted(() => {
+    }
+        onMounted(() => {
       fetchData()
     })
 
