@@ -32,6 +32,7 @@ npm run dev
 
 #### GitHub Pages 部署 (`deploy.yml`)
 - 自动部署到 GitHub Pages
+- 地址： https://wasd09090030.github.io/Vue3-BigScreen/
 
 
 ## 项目结构
