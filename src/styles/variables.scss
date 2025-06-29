@@ -1,0 +1,44 @@
+// 颜色变量
+$primary-blue: #4facfe;
+$secondary-blue: #00f2fe;
+$accent-blue: rgba(79, 172, 254, 0.8);
+$light-blue: rgba(78, 121, 167, 0.3);
+
+$primary-red: #ff6b6b;
+$primary-green: #4ecdc4;
+$accent-green: #44a08d;
+
+$white: #fff;
+$black: #000;
+
+// 背景颜色
+$bg-dark-1: #0c1426;
+$bg-dark-2: #1a2332;
+$bg-dark-3: #0f1a2e;
+
+$bg-overlay: rgba(0, 0, 0, 0.4);
+$bg-border: rgba(78, 121, 167, 0.3);
+
+// 尺寸变量
+$header-height: 100px;
+$border-radius: 12px;
+$gap-large: 20px;
+$gap-medium: 18px;
+
+// 字体
+$font-family: 'Microsoft YaHei', sans-serif;
+$font-size-large: 36px;
+$font-size-medium: 20px;
+$font-size-small: 16px;
+
+// 响应式断点
+$breakpoint-md: 1200px;
+
+// 动画时间
+$animation-duration: 3s;
+$animation-easing: ease-in-out;
+
+// Z-index 层级
+$z-index-base: 1;
+$z-index-overlay: 2;
+$z-index-modal: 10;

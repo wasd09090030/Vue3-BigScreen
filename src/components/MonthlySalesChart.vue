@@ -138,7 +138,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .monthly-sales-chart {
   width: 100%;
   height: 100%;

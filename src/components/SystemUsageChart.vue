@@ -216,7 +216,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .system-usage-chart {
   width: 100%;
   height: 100%;

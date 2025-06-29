@@ -112,7 +112,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .temperature-gauge {
   width: 100%;
   height: 100%;

@@ -81,19 +81,25 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .digital-flop {
   text-align: center;
-  padding: 20px;
+  padding: $gap-large;
   background: linear-gradient(135deg, rgba(30, 30, 60, 0.6), rgba(20, 20, 40, 0.8));
   border-radius: 10px;
-  border: 1px solid rgba(79, 172, 254, 0.3);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid $light-blue;
+  box-shadow: 0 4px 15px rgba($black, 0.3);
+
+  &:hover {
+    .digit {
+      transform: rotateY(360deg);
+    }
+  }
 }
 
 .flop-title {
-  color: #4facfe;
-  font-size: 16px;
+  color: $primary-blue;
+  font-size: $font-size-small;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -107,35 +113,27 @@ export default {
 
 .digit {
   display: inline-block;
-  color: #fff;
+  color: $white;
   font-size: 32px;
   font-weight: bold;
   font-family: 'Courier New', monospace;
-  text-shadow: 0 0 10px rgba(79, 172, 254, 0.8);
-  animation: digitGlow 2s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px $accent-blue;
+  animation: digitGlow 2s $animation-easing infinite alternate;
+  transition: transform 0.3s ease;
 }
 
 .unit {
-  color: #4facfe;
+  color: $primary-blue;
   font-size: 18px;
   margin-left: 5px;
 }
 
 @keyframes digitGlow {
   0% {
-    text-shadow: 0 0 10px rgba(79, 172, 254, 0.8);
+    text-shadow: 0 0 10px $accent-blue;
   }
   100% {
-    text-shadow: 0 0 20px rgba(79, 172, 254, 1);
+    text-shadow: 0 0 20px $primary-blue;
   }
-}
-
-/* 数字翻转效果 */
-.digit {
-  transition: transform 0.3s ease;
-}
-
-.digital-flop:hover .digit {
-  transform: rotateY(360deg);
 }
 </style>

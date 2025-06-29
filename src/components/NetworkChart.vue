@@ -132,7 +132,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .network-chart {
   width: 100%;
   height: 100%;

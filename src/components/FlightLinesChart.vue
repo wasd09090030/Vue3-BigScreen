@@ -134,13 +134,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .flight-lines-chart {
   width: 100%;
   height: 100%;
   background: linear-gradient(135deg, rgba(30, 30, 60, 0.8), rgba(20, 20, 40, 0.9));
   border-radius: 10px;
-  border: 1px solid rgba(78, 121, 167, 0.3);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid $bg-border;
+  box-shadow: 0 4px 15px rgba($black, 0.3);
 }
 </style>

@@ -157,7 +157,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .province-users-chart {
   width: 100%;
   height: 100%;
